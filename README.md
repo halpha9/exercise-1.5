@@ -34,5 +34,5 @@ npm install
 ### Running the project
 
 Clone this repository :
-git clone https://github.com/stevenpersia/tinder-react-native.git
+git clone https://github.com/halpha9/exercise-1.5.git
 cd tinder-react-native
