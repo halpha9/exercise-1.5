@@ -29,7 +29,6 @@ npm install
 •	material-ui
 •	material-ui/icons
 •	react-intersection-observer
-• node-sass
 
 ### Running the project
 
