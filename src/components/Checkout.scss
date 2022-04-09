@@ -1,0 +1,144 @@
+.checkout {
+  background-color: rgb(245, 245, 245);
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+
+  &__icon {
+    color: rgba(0, 102, 255, 0.8) !important;
+    cursor: pointer;
+  }
+
+  &__box {
+    width: 50%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__img {
+    height: 60px;
+    border-radius: 5px;
+  }
+
+  h1 {
+    color: gray;
+    font-size: 50px;
+    font-weight: 300;
+    padding: 50px;
+  }
+
+  &__title {
+    text-align: left;
+    padding: 20px 0px 20px;
+    color: gray;
+
+    h2 {
+      margin-top: 50px;
+      font-weight: 400;
+    }
+
+    p {
+      padding-top: 15px;
+    }
+  }
+
+  &__quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgba(0, 102, 255, 0.8);
+    border-radius: 5px;
+    width: 50%;
+    transition: all 0.4s;
+
+    &:hover {
+      background-color: rgb(0, 102, 255);
+      color: white;
+    }
+
+    &:hover > .checkout__quantity-btn {
+      color: white;
+    }
+  }
+
+  &__quantity-value {
+    margin: 0px 15px 0px;
+  }
+
+  &__quantity-btn {
+    // padding:8px 12px 8px;
+    background-color: transparent;
+    color: rgb(0, 102, 255);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  &__summaries {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    padding-bottom: 20px;
+    padding-right: 60px;
+  }
+  .checkout__total {
+    color: rgb(86, 86, 86);
+  }
+
+  &__summary {
+    padding-top: 40px;
+    button {
+      float: right;
+      margin-top: 30px;
+    }
+  }
+}
+
+.table {
+  &__row2 {
+    margin: 0px 10px 0px;
+  }
+  &__row4 {
+    text-align: right;
+    padding-right: 40px;
+  }
+
+  &__row3 {
+    margin-left: 20px;
+  }
+
+  &__title {
+    color: rgb(86, 86, 86);
+  }
+
+  &__body {
+    color: gray;
+  }
+}
+
+thead tr th {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0 20px;
+}
+
+thead th:nth-child(1) {
+  width: 40%;
+}
+
+thead th:nth-child(2) {
+  width: 15%;
+}
+
+thead th:nth-child(3) {
+  width: 25%;
+  padding-left: 20px;
+}
+
+thead th:nth-child(4) {
+  width: 20%;
+}

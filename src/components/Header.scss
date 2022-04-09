@@ -1,0 +1,31 @@
+.header {
+
+
+    &__logo {
+        height:80vh;
+        width: 100%;
+        object-fit: cover;
+        z-index: -1;
+        filter: grayscale(80%);
+    }
+
+    &__title {
+        position: absolute;
+        color:white;
+        z-index: 3;
+        top:56%;
+        left:20%;
+        text-align:left;
+        opacity: 0.8;
+
+        h2 {
+            font-weight: 200;
+            font-size: 40px;
+            padding: 5px;
+        }
+        h4 {
+            font-size: 20px;
+            font-weight: 200;
+        }
+    }
+}
