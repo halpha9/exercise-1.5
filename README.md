@@ -7,6 +7,8 @@ The use of SASS preproccessor is also throughout the site and in conjunction BEM
 
 Debugging the website was done using VSCode and the chrome dev tools this allows me to see errors and also observe changes when testing new features
 
+I would estimate it took about 8 hours to complete the site from start to finish
+
 
 ## Dependencies used:
 •	react-router-dom - this was used in order to allow switching to different routes and display different pages on the website
@@ -17,6 +19,7 @@ Debugging the website was done using VSCode and the chrome dev tools this allows
 •	react-intersection-observer  - allowed for me to trigger animations when certain components of the webpage were reached
 
 • node-sass - used to compile the sass
+
 
 
 ## How to Install 
