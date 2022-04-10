@@ -22,16 +22,11 @@ Debugging the website was done using VSCode and the chrome dev tools this allows
 ## How to Install 
 Be sure, you have installed all dependencies and applications to run ReactJs project 
 
-Install packages :
-npm install
-
-•	react-router-dom
-•	material-ui
-•	material-ui/icons
-•	react-intersection-observer
-
 ### Running the project
 
 Clone this repository :
-git clone https://github.com/halpha9/exercise-1.5.git
-cd excercise-1.5.git
+git clone https://github.com/halpha9/exercise-1.5.git <br />
+
+cd excercise-1.5.git <br />
+
+npm start
