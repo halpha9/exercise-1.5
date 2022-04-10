@@ -34,4 +34,4 @@ npm install
 
 Clone this repository :
 git clone https://github.com/halpha9/exercise-1.5.git
-cd tinder-react-native
+cd excercise-1.5.git
