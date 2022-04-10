@@ -27,6 +27,6 @@ Be sure, you have installed all dependencies and applications to run ReactJs pro
 Clone this repository :<br />
 git clone https://github.com/halpha9/exercise-1.5.git <br />
 
-cd excercise-1.5.git <br />
+cd exercise-1.5.git <br />
 
 npm start
