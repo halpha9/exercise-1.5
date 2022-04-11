@@ -7,6 +7,8 @@ The use of SASS preproccessor is also throughout the site and in conjunction BEM
 
 Debugging the website was done using VSCode and the chrome dev tools this allows me to see errors and also observe changes when testing new features
 
+I would estimate it took about 8 hours to complete the site from start to finish
+
 
 ## Dependencies used:
 •	react-router-dom - this was used in order to allow switching to different routes and display different pages on the website
@@ -19,19 +21,15 @@ Debugging the website was done using VSCode and the chrome dev tools this allows
 • node-sass - used to compile the sass
 
 
+
 ## How to Install 
 Be sure, you have installed all dependencies and applications to run ReactJs project 
 
-Install packages :
-npm install
-
-•	react-router-dom
-•	material-ui
-•	material-ui/icons
-•	react-intersection-observer
-
 ### Running the project
 
-Clone this repository :
-git clone https://github.com/halpha9/exercise-1.5.git
-cd excercise-1.5.git
+Clone this repository :<br />
+git clone https://github.com/halpha9/exercise-1.5.git <br />
+
+cd exercise-1.5.git <br />
+
+npm start
