@@ -7,6 +7,8 @@ The use of SASS preproccessor is also throughout the site and in conjunction BEM
 
 Debugging the website was done using VSCode and the chrome dev tools this allows me to see errors and also observe changes when testing new features
 
+SEO was done through alt tags in images and to improve performance Lazy loading of some images was included so a low resolution version of the image is loaded and only when visble the full resolution image is viewable.
+
 I would estimate it took about 8 hours to complete the site from start to finish
 
 
@@ -20,6 +22,7 @@ I would estimate it took about 8 hours to complete the site from start to finish
 
 • node-sass - used to compile the sass
 
+• react-helmet - used to add meta tags for SEO
 
 
 ## How to Install 
