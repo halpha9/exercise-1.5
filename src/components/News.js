@@ -1,6 +1,7 @@
 import React from 'react'
 import { useInView } from 'react-intersection-observer';
 import mountain from '../img/mountain.jpeg'
+import lazymountain from '../img/lazymountain.jpeg'
 import './News.scss'
 
 function News() {
@@ -12,7 +13,7 @@ function News() {
   return (
     <div className='news' ref ={myRef}>
         <div className='news__left'>
-            <img className = 'news__img' src={mountain} alt ='mountain' />
+            <img className = 'news__img' src={` ${visible ? mountain: lazymountain}`} alt ='mountain' />
         </div>
 
         <div className={`news__right ${!visible ? 'section--hidden' : 'section--visible'}  `}>
